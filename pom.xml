@@ -3,17 +3,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>uk.co.epii.conservatives</groupId>
-  <artifactId>georgecanning</artifactId>
+  <artifactId>spencercompton</artifactId>
   <version>0.0.1</version>
   <packaging>jar</packaging>
   
-  <description>Standard Empty Java Maven Project</description>
+  <description>Software for downloading ward, polling district and candidate information from ouncils</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <main.class>${project.groupId}.${project.artifactId}.Main</main.class>
     <slf4j.version>1.6.4</slf4j.version>
     <log4j.version>1.2.12</log4j.version>
+    <gson.version>2.2.4</gson.version>
     <junit.version>4.11</junit.version>
     <args4j.version>2.0.16</args4j.version>
     <spring.version>2.5.6</spring.version>
@@ -37,6 +38,11 @@
   <name>${project.artifactId}</name>
 
   <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>${gson.version}</version>
+    </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring</artifactId>

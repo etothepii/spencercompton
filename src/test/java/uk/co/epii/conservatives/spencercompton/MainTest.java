@@ -1,4 +1,4 @@
-package uk.co.epii.conservatives.georgecanning;
+package uk.co.epii.conservatives.spencercompton;
 
 import org.junit.Test;
 
