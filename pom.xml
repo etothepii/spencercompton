@@ -18,6 +18,7 @@
     <junit.version>4.11</junit.version>
     <args4j.version>2.0.16</args4j.version>
     <spring.version>2.5.6</spring.version>
+    <pdfbox.version>1.7.0</pdfbox.version>
     <maven.compiler.version>2.3.2</maven.compiler.version>
     <java.source.version>1.6</java.source.version>
     <java.target.version>1.6</java.target.version>
@@ -38,6 +39,11 @@
   <name>${project.artifactId}</name>
 
   <dependencies>
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <version>${pdfbox.version}</version>
+    </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
