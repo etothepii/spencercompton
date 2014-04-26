@@ -1,4 +1,4 @@
-package uk.co.epii.conservatives.spencercompton.candidateExtrator;
+package uk.co.epii.conservatives.spencercompton.candidateExtractor;
 
 /**
  * User: James Robinson

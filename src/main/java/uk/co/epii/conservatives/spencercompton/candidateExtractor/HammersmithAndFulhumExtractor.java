@@ -1,4 +1,4 @@
-package uk.co.epii.conservatives.spencercompton.candidateExtrator;
+package uk.co.epii.conservatives.spencercompton.candidateExtractor;
 
 import java.net.URL;
 import java.util.List;

@@ -1,4 +1,4 @@
-package uk.co.epii.conservatives.spencercompton.candidateExtrator;
+package uk.co.epii.conservatives.spencercompton.candidateExtractor;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.util.PDFTextStripper;

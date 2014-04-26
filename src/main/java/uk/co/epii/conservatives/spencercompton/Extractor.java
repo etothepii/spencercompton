@@ -1,6 +1,6 @@
 package uk.co.epii.conservatives.spencercompton;
 
-import uk.co.epii.conservatives.spencercompton.candidateExtrator.Ward;
+import uk.co.epii.conservatives.spencercompton.candidateExtractor.Ward;
 
 import java.net.URL;
 import java.util.List;

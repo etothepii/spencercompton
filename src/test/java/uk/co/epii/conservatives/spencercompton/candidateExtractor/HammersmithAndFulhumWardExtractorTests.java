@@ -1,10 +1,7 @@
-package uk.co.epii.conservatives.spencercompton.spencercompton;
+package uk.co.epii.conservatives.spencercompton.candidateExtractor;
 
 import edu.emory.mathcs.backport.java.util.Arrays;
 import org.junit.Test;
-import uk.co.epii.conservatives.spencercompton.candidateExtrator.Candidate;
-import uk.co.epii.conservatives.spencercompton.candidateExtrator.HammersmithAndFulhumWardExtractor;
-import uk.co.epii.conservatives.spencercompton.candidateExtrator.Ward;
 
 import java.net.MalformedURLException;
 import java.net.URL;

@@ -1,4 +1,4 @@
-package uk.co.epii.conservatives.spencercompton.candidateExtrator;
+package uk.co.epii.conservatives.spencercompton.candidateExtractor;
 
 import java.util.List;
 
@@ -19,8 +19,11 @@ public abstract class CandidateBuilder {
     for (String line : candidateSection) {
       processLine(line);
     }
+    postProcessing();
     return new Candidate(name.toString(), description.toString());
   }
+
+  protected abstract void postProcessing();
 
   protected abstract void processLine(String line);
 

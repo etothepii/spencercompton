@@ -3,7 +3,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-  <bean id="hamFulCandExt" class="uk.co.epii.conservatives.spencercompton.candidateExtrator.HammersmithAndFulhumExtractor" />
+  <bean id="hamFulCandExt" class="uk.co.epii.conservatives.spencercompton.candidateExtractor.HammersmithAndFulhumExtractor" />
 
   <bean id="hamFul" class="uk.co.epii.conservatives.spencercompton.Council">
     <property name="name" value="Hammersmith and Fulhum" />

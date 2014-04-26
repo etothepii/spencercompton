@@ -1,6 +1,4 @@
-package uk.co.epii.conservatives.spencercompton.candidateExtrator;
-
-import edu.emory.mathcs.backport.java.util.Arrays;
+package uk.co.epii.conservatives.spencercompton.candidateExtractor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,10 +53,7 @@ public class HammersmithAndFulhumWardExtractor extends PDFWardExtractor {
         add = true;
       }
       if (line.contains("(P)")) {
-        String lastLine = removeNominator(line);
-        if (!lastLine.isEmpty()) {
-          active.add(lastLine);
-        }
+        active.add(line);
         candidateSections.add(active);
         active = new ArrayList<String>();
         add = false;
@@ -68,22 +63,6 @@ public class HammersmithAndFulhumWardExtractor extends PDFWardExtractor {
       }
     }
     return candidateSections;
-  }
-
-  private String removeNominator(String line) {
-    StringBuilder stringBuilder = new StringBuilder(line.length());
-    List<String> words = new ArrayList<String>(Arrays.asList(line.split("\\(P\\)")[0].split(" ")));
-    int lastWord = words.lastIndexOf("Candidate");
-    if (lastWord < 0) {
-      lastWord = guessLastWordIndex(words);
-    }
-    for (int i = 0; i <= lastWord; i++) {
-      if (i != 0) {
-        stringBuilder.append(" ");
-      }
-      stringBuilder.append(words.get(i));
-    }
-    return stringBuilder.toString();
   }
 
   private int guessLastWordIndex(List<String> words) {
