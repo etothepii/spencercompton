@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+  <bean id="hamFulCandExt" class="uk.co.epii.conservatives.spencercompton.candidateExtrator.HammersmithAndFulhumExtractor" />
+
+  <bean id="hamFul" class="uk.co.epii.conservatives.spencercompton.Council">
+    <property name="name" value="Hammersmith and Fulhum" />
+    <property name="url" value="http://www.lbhf.gov.uk/Directory/Council_and_Democracy/Democracy_and_Elections/Electoral_services_voting/" />
+    <property name="candidateExtractor" ref="hamFulCandExt" />
+  </bean>
+
+</beans>
