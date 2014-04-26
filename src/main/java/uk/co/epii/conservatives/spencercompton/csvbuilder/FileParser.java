@@ -25,6 +25,7 @@ public class FileParser {
   private final List<PollingArea> pollingAreas;
   private final List<PollingArea> hierarchy;
 
+  private int candidateCount = 0;
   private int indent = 0;
   private String workingFile;
   private Map<String, Integer> politicalPartyMap;
@@ -101,7 +102,7 @@ public class FileParser {
       }
     }
     if (in.startsWith("*")) {
-      addCandidate(in);
+      candidates.add(parseCandidate(in));
     }
     else if (in.startsWith("!")) {
       getActive().setChildType(in);
@@ -125,13 +126,21 @@ public class FileParser {
     PollingArea pollingArea = new PollingArea(in, parent == null ? 0 : parent.getId());
     pollingAreas.add(pollingArea);
     hierarchy.add(pollingArea);
+    candidateCount = 0;
   }
 
-  private void addCandidate(String in) {
-    Candidate candidate = parseCandidate(in);
+  private Candidate parseCandidate(String in) {
+    candidateCount++;
+    String[] candidateParts = parseCandidateParts(in);
+    Candidate candidate = new Candidate(getActive().getId());
+    candidate.setSurname(candidateParts[0]);
+    candidate.setFirstNames(candidateParts[1]);
+    candidate.setOrder(candidateCount * 10);
+    candidate.setPoliticalParty(politicalPartyMap.get(candidateParts[2]));
+    return candidate;
   }
 
-  static Candidate parseCandidate(String in) {
+  static String[] parseCandidateParts(String in) {
     return null;
   }
 
