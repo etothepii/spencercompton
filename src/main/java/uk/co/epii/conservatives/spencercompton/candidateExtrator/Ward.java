@@ -52,4 +52,13 @@ public class Ward {
             ", candidates=" + candidates +
             '}';
   }
+
+  public String display() {
+    StringBuilder stringBuilder = new StringBuilder();
+    stringBuilder.append(String.format("  %s", name));
+    for (Candidate candidate : candidates) {
+      stringBuilder.append(String.format("\n%s", candidate.display()));
+    }
+    return stringBuilder.toString();
+  }
 }
