@@ -37,4 +37,8 @@ public class FileParserTests {
     String expected = "/londonBoroughs";
     assertEquals(expected, result);
   }
+
+  public void extractCandidateTest1() {
+
+  }
 }

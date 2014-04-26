@@ -1,5 +1,7 @@
 package uk.co.epii.conservatives.spencercompton.csvbuilder;
 
+import org.springframework.beans.support.PagedListHolder;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -17,7 +19,7 @@ import java.util.regex.Pattern;
  */
 public class FileParser {
 
-  private static Pattern parentDirectoryMatcher = Pattern.compile("/[^/]*/..");
+  private static Pattern parentDirectoryMatcher = Pattern.compile("/[^/]*/\\.\\.");
 
   private final List<Candidate> candidates;
   private final List<PollingArea> pollingAreas;
@@ -37,11 +39,14 @@ public class FileParser {
     this(new ArrayList<Candidate>(), new ArrayList<PollingArea>(), new ArrayList<PollingArea>());
   }
 
-  public FileParser(Map<String, Integer> politicalPartyMap, String workingFile, List<PollingArea> hierarchy,
+  public FileParser(Map<String, Integer> politicalPartyMap, String workingFile, PollingArea parent,
                     List<PollingArea> pollingAreas, List<Candidate> candidates) {
     this.politicalPartyMap = politicalPartyMap;
     this.workingFile = workingFile;
-    this.hierarchy = hierarchy;
+    this.hierarchy = new ArrayList<PollingArea>();
+    if (parent != null) {
+      hierarchy.add(parent);
+    }
     this.pollingAreas = pollingAreas;
     this.candidates = candidates;
   }
@@ -86,7 +91,68 @@ public class FileParser {
   }
 
   private void processLine(String in) {
+    int indent = getIndent(in);
+    in = in.trim();
+    if (in.startsWith(".") || in.startsWith("/")) {
+      try {
+        readSubDocument(in);
+      } catch (IOException e) {
+        throw new RuntimeException("File not found: " + in);
+      }
+    }
+    if (in.startsWith("*")) {
+      addCandidate(in);
+    }
+    else if (in.startsWith("!")) {
+      getActive().setChildType(in);
+    }
+    else {
+      if (indent <= this.indent) {
+        returnToCommonAncestor(indent);
+      }
+      addChild(in);
+    }
+  }
 
+  private void readSubDocument(String in) throws IOException {
+    String fileLocation = getFile(workingFile, in);
+    FileParser fileParser = new FileParser(politicalPartyMap, fileLocation, getActive(), pollingAreas, candidates);
+    fileParser.process();
+  }
+
+  private void addChild(String in) {
+    PollingArea parent = getActive();
+    PollingArea pollingArea = new PollingArea(in, parent == null ? 0 : parent.getId());
+    pollingAreas.add(pollingArea);
+    hierarchy.add(pollingArea);
+  }
+
+  private void addCandidate(String in) {
+    Candidate candidate = parseCandidate(in);
+  }
+
+  static Candidate parseCandidate(String in) {
+    return null;
+  }
+
+  private void returnToCommonAncestor(int indent) {
+    int generations = (this.indent - indent) / 2 + 1;
+    for (int i = 0; i < generations; i++) {
+      hierarchy.remove(hierarchy.size() - 1);
+    }
+  }
+
+  private PollingArea getActive() {
+    return hierarchy.isEmpty() ? null : hierarchy.get(hierarchy.size() - 1);
+  }
+
+  private int getIndent(String in) {
+    for (int i = 0; i < in.length(); i++) {
+      if (in.charAt(i) != ' ') {
+        return i;
+      }
+    }
+    return in.length();
   }
 
   static String getFile(String workingFile, String relativePath) {
