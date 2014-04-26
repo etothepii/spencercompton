@@ -1,5 +1,6 @@
 package uk.co.epii.conservatives.spencercompton.candidateExtrator;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,6 +12,10 @@ public class Ward {
   public final String name;
   public final String url;
   public final List<Candidate> candidates;
+
+  public Ward(String name) {
+    this(name, null, new ArrayList<Candidate>());
+  }
 
   public Ward(String name, String url, List<Candidate> candidates) {
     this.name = name;
@@ -38,5 +43,13 @@ public class Ward {
     result = 31 * result + (url != null ? url.hashCode() : 0);
     result = 31 * result + (candidates != null ? candidates.hashCode() : 0);
     return result;
+  }
+
+  @Override
+  public String toString() {
+    return "Ward{" +
+            "name='" + name + '\'' +
+            ", candidates=" + candidates +
+            '}';
   }
 }

@@ -29,6 +29,14 @@ public class Candidate {
   }
 
   @Override
+  public String toString() {
+    return "Candidate{" +
+            "name='" + name + '\'' +
+            ", description='" + description + '\'' +
+            '}';
+  }
+
+  @Override
   public int hashCode() {
     int result = name != null ? name.hashCode() : 0;
     result = 31 * result + (description != null ? description.hashCode() : 0);
