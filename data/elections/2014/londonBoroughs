@@ -1,112 +1,154 @@
 Barking and Dagenham
+  !Council Ward
   Abbey Ward
+    !Polling District
     AA
     AB
     AC
     AD
   Alibon Ward
+    !Polling District
     KA
     KB
     KC
     KD
   Becontree Ward
+    !Polling District
     VA
     VB
     VC
     VD
   Chadwell Heath Ward
+    !Polling District
     QA
     QB
     QC
     QD
   Eastbrook Ward
+    !Polling District
     MA
     MB
     MC
   Eastbury Ward
+    !Polling District
     CA
     CB
     CC
     CD
   Gascoigne Ward
+    !Polling District
     DA
     DB
     DC
     DD
   Goresbrook Ward
+    !Polling District
     EA
     EB
     EC
     ED
   Heath Ward
+    !Polling District
     PA
     PB
     PC
     PD
   Longbridge Ward
+    !Polling District
     FA
     FB
     FC
     FD
   Mayesbrook Ward
+    !Polling District
     HA
     HB
     HC
     HD
   Parsloes Ward
+    !Polling District
     NA
     NB
     NC
     ND
   River Ward
+    !Polling District
     RA
     RB
     RC
     RD
   Thames Ward
+    !Polling District
     JA
     JB
     JC
     JD
   Valence Ward
+    !Polling District
     TA
     TB
     TC
     TD
   Village Ward
+    !Polling District
     UA
     UB
     UC
     UD
   Whalebone Ward
+    !Polling District
     LA
     LB
     LC
     LD
 Barnet
+  !Council Ward
   Brunswick Park Ward
+    !Polling District
   Burnt Oak Ward
+    !Polling District
   Childs Hill Ward
+    !Polling District
   Colindale Ward
+    !Polling District
   Coppetts Ward
+    !Polling District
   East Barnet Ward
+    !Polling District
   East Finchley Ward
+    !Polling District
   Edgware Ward
+    !Polling District
   Finchley-Church End Ward
+    !Polling District
   Garden Suburb Ward
+    !Polling District
   Golders Green Ward
+    !Polling District
   Hale Ward
+    !Polling District
   Hendon Ward
+    !Polling District
   High Barnet Ward
+    !Polling District
   Mill Hill Ward
+    !Polling District
   Oakleigh Ward
+    !Polling District
   Totteridge Ward
+    !Polling District
   Underhill Ward
+    !Polling District
   West Finchley Ward
+    !Polling District
   West Hendon Ward
+    !Polling District
   Woodhouse Ward
+    !Polling District
 Bexley
+  !Council Ward
   Barnehurst Ward
+    !Polling District
     BH1B
     BH2B
     BH3B
@@ -114,27 +156,32 @@ Bexley
     BH5B
     BH6B
   Belvedere Ward
+    !Polling District
     BV1E
     BV2E
     BV3E
     BV4E
     BV5E
   Blackfen and Lamorbey Ward
+    !Polling District
     BL1S
     BL2S
     BL3S
     BL4S
   Blendon and Penhill Ward
+    !Polling District
     BP1S
     BP2S
     BP3S
     BP4S
   Brampton Ward
+    !Polling District
     BR1B
     BR2B
     BR3B
     BR4B
   Christchurch Ward
+    !Polling District
     CC1B
     CC2B
     CC3B
@@ -142,11 +189,13 @@ Bexley
     CC5B
     CC6B
   Colyers Ward
+    !Polling District
     CL1B
     CL2B
     CL3B
     CL4B
   Cray Meadows Ward
+    !Polling District
     CM1S
     CM2S
     CM3S
@@ -154,59 +203,69 @@ Bexley
     CM5S
     CM6S
   Crayford Ward
+    !Polling District
     CY1B
     CY2B
     CY3B
     CY4B
     CY5B
   Danson Park Ward
+    !Polling District
     DP1B
     DP2B
     DP3B
     DP4B
     DP5B
   East Wickham Ward
+    !Polling District
     EW1S
     EW2S
     EW3S
     EW4S
   Erith Ward
+    !Polling District
     ER1E
     ER2E
     ER3E
     ER4E
     ER5E
   Falconwood and Welling Ward
+    !Polling District
     FW1S
     FW2S
     FW3S
     FW4S
     FW5S
   Lesnes Abbey Ward
+    !Polling District
     LA1E
     LA2E
     LA3E
     LA4E
     LA5E
   Longlands Ward
+    !Polling District
     LL1S
     LL2S
     LL3S
     LL4S
     LL5S
   North End Ward
+    !Polling District
     NE1B
     NE2B
     NE3B
     NE4B
     NE5B
   Northumberland Heath Ward
+    !Polling District
     NH1E
     NH2E
     NH3E
     NH4E
     NH5E
   Sidcup Ward
+    !Polling District
     SP1S
     SP2S
     SP3S
@@ -214,28 +273,34 @@ Bexley
     SP5S
     SP6S
   St Mary's Ward
+    !Polling District
     ST1S
     ST2S
     ST3S
     ST4S
     ST5S
   St Michael's Ward
+    !Polling District
     SM1B
     SM2B
     SM3B
   Thamesmead East Ward
+    !Polling District
     TE1E
     TE2E
     TE3E
     TE4E
     TE5E
 Brent
+  !Council Ward
   Alperton Ward
+    !Polling District
     NAL1
     NAL2
     NAL3
     NAL4
   Barnhill Ward
+    !Polling District
     NBA1
     NBA2
     NBA3
@@ -243,17 +308,20 @@ Brent
     NBA5
     NBA6
   Brondesbury Park Ward
+    !Polling District
     HBP1
     HBP2
     HBP3
     HBP4
     HBP5
   Dollis Hill Ward
+    !Polling District
     CDO1
     CDO2
     CDO3
     CDO4
   Dudden Hill Ward
+    !Polling District
     CDU1
     CDU2
     CDU3
@@ -261,6 +329,7 @@ Brent
     CDU5
     CDU6
   Fryent Ward
+    !Polling District
     NFR1
     NFR2
     NFR3
@@ -269,12 +338,14 @@ Brent
     NFR6
     NFR7
   Harlesden Ward
+    !Polling District
     CHA1
     CHA2
     CHA3
     CHA4
     CHA5
   Kensal Green Ward
+    !Polling District
     CKG1
     CKG2
     CKG3
@@ -282,41 +353,48 @@ Brent
     CKG5
     CKG6
   Kenton Ward
+    !Polling District
     NKE1
     NKE2
     NKE3
     NKE4
     NKE5
   Kilburn Ward
+    !Polling District
     HKI1
     HKI2
     HKI3
     HKI4
     HKI5
   Mapesbury Ward
+    !Polling District
     CMA1
     CMA2
     CMA3
     CMA4
     CMA5
   Northwick Park Ward
+    !Polling District
     NNP1
     NNP2
     NNP3
     NNP4
     NNP5
   Preston Ward
+    !Polling District
     NPR1
     NPR2
     NPR3
     NPR4
   Queen’s Park Ward
+    !Polling District
     HQP1
     HQP2
     HQP3
     HQP4
     HQP5
   Queensbury Ward
+    !Polling District
     NQY1
     NQY2
     NQY3
@@ -324,6 +402,7 @@ Brent
     NQY5
     NQY6
   Stonebridge Ward
+    !Polling District
     CST1
     CST2
     CST3
@@ -331,18 +410,21 @@ Brent
     CST5
     CST6
   Sudbury Ward
+    !Polling District
     NSU1
     NSU2
     NSU3
     NSU4
     NSU5
   Tokyngton Ward
+    !Polling District
     CTO1
     CTO2
     CTO3
     CTO4
     CTO5
   Welsh Harp Ward
+    !Polling District
     CWH1
     CWH2
     CWH3
@@ -351,16 +433,20 @@ Brent
     CWH6
     CWH7
   Wembley Central Ward
+    !Polling District
     NWC1
     NWC2
     NWC3
     NWC4
   Willesden Green Ward
+    !Polling District
     CWG1
     CWG2
     CWG3
 Bromley
+  !Council Ward
   Bickley Ward
+    !Polling District
     BK1
     BK2
     BK3
@@ -368,16 +454,19 @@ Bromley
     BK5
     BK6
   Biggin Hill Ward
+    !Polling District
     BH1
     BH2
     BH3
   Bromley Common & Keston Ward
+    !Polling District
     BC1
     BC2
     BC3
     BC4
     BC5
   Bromley Town Ward
+    !Polling District
     BT1
     BT2
     BT3
@@ -386,6 +475,7 @@ Bromley
     BT6
     BT7
   Chelsfield & Pratts Bottom Ward
+    !Polling District
     CB1
     CB2
     CB3
@@ -393,22 +483,26 @@ Bromley
     CB5
     CB6
   Chislehurst Ward
+    !Polling District
     CH1
     CH2
     CH3
     CH4
     CH5
   Clock House Ward
+    !Polling District
     CL1
     CL2
     CL3
     CL4
     CL5
   Copers Cope Ward
+    !Polling District
     CC1
     CC2
     CC3
   Cray Valley East Ward
+    !Polling District
     CE1
     CE2
     CE3
@@ -416,16 +510,19 @@ Bromley
     CE5
     CE6
   Cray Valley West Ward
+    !Polling District
     CW1
     CW2
     CW3
     CW4
   Crystal Palace Ward
+    !Polling District
     CP1
     CP2
     CP3
     CP4
   Darwin Ward
+    !Polling District
     DA1
     DA2
     DA3
@@ -434,6 +531,7 @@ Bromley
     DA6
     DA7
   Farnborough & Crofton Ward
+    !Polling District
     FC1
     FC2
     FC3
@@ -441,6 +539,7 @@ Bromley
     FC5
     FC6
   Hayes & Coney Hall Ward
+    !Polling District
     HA1
     HA2
     HA3
@@ -448,22 +547,26 @@ Bromley
     HA5
     HA6
   Kelsey and Eden Park Ward
+    !Polling District
     KP1
     KP2
     KP3
     KP4
   Mottingham & Chislehurst North Ward
+    !Polling District
     MO1
     MO2
     MO3
     MO4
   Orpington Ward
+    !Polling District
     OR1
     OR2
     OR3
     OR4
     OR5
   Penge and Cator Ward
+    !Polling District
     PE1
     PE2
     PE3
@@ -471,107 +574,132 @@ Bromley
     PE5
     PE6
   Petts Wood & Knoll Ward
+    !Polling District
     PW1
     PW2
     PW3
     PW4
   Plaistow & Sundridge Ward
+    !Polling District
     PS1
     PS2
     PS3
     PS4
     PS5
   Shortlands Ward
+    !Polling District
     SH1
     SH2
     SH3
     SH4
   West Wickham Ward
+    !Polling District
     WW1
     WW2
     WW3
     WW4
 Camden
+  !Council Ward
   Belsize Ward
+    !Polling District
     HA
     HB
     HC
   Bloomsbury Ward
+    !Polling District
     QA
     QB
     QC
     QD
   Camden Town with Primrose Hill Ward
+    !Polling District
     MA
     MB
     MC
     MD
   Cantelowes Ward
+    !Polling District
     KA
     KB
     KC
   Fortune Green Ward
+    !Polling District
     DA
     DB
     DC
   Frognal and Fitzjohns Ward
+    !Polling District
     CA
     CB
     CC
   Gospel Oak Ward
+    !Polling District
     IA
     IB
     IC
   Hampstead Town Ward
+    !Polling District
     AA
     AB
     AC
   Haverstock Ward
+    !Polling District
     LA
     LB
     LC
     LD
   Highgate Ward
+    !Polling District
     BA
     BB
     BC
   Holborn and Covent Garden Ward
+    !Polling District
     RA
     RB
     RC
   Kentish Town Ward
+    !Polling District
     JA
     JB
     JC
   Kilburn Ward
+    !Polling District
     FA
     FB
     FC
     FD
   Kings Cross Ward
+    !Polling District
     PA
     PB
     PC
   Regents Park Ward
+    !Polling District
     NA
     NB
     NC
   St Pancras and Somers Town Ward
+    !Polling District
     OA
     OB
     OC
     OD
   Swiss Cottage Ward
+    !Polling District
     GA
     GB
     GC
   West Hampstead Ward
+    !Polling District
     EA
     EB
     EC
     ED
 Croydon
+  !Council Ward
   Addiscombe Ward
+    !Polling District
     AD1
     AD2
     AD3
@@ -579,6 +707,7 @@ Croydon
     AD5
     AD6
   Ashburton Ward
+    !Polling District
     AS1
     AS2
     AS3
@@ -586,6 +715,7 @@ Croydon
     AS5
     AS6
   Bensham Manor Ward
+    !Polling District
     BM1
     BM2
     BM3
@@ -593,6 +723,7 @@ Croydon
     BM5
     BM6
   Broad Green Ward
+    !Polling District
     BG1
     BG2
     BG3
@@ -601,6 +732,7 @@ Croydon
     BG6
     BG7
   Coulsdon East Ward
+    !Polling District
     CE1
     CE2
     CE3
@@ -609,6 +741,7 @@ Croydon
     CE6
     CE7
   Coulsdon West Ward
+    !Polling District
     CW1
     CW2
     CW3
@@ -616,6 +749,7 @@ Croydon
     CW5
     CW6
   Croham Ward
+    !Polling District
     CR1
     CR2
     CR3
@@ -623,6 +757,7 @@ Croydon
     CR5
     CR6
   Fairfield Ward
+    !Polling District
     FA1
     FA2
     FA3
@@ -631,11 +766,13 @@ Croydon
     FA6
     FA7
   Fieldway Ward
+    !Polling District
     FW1
     FW2
     FW3
     FW4
   Heathfield Ward
+    !Polling District
     HE1
     HE2
     HE3
@@ -644,6 +781,7 @@ Croydon
     HE6
     HE7
   Kenley Ward
+    !Polling District
     KE1
     KE2
     KE3
@@ -652,11 +790,13 @@ Croydon
     KE6
     KE7
   New Addington Ward
+    !Polling District
     NA1
     NA2
     NA3
     NA4
   Norbury Ward
+    !Polling District
     NY1
     NY2
     NY3
@@ -664,6 +804,7 @@ Croydon
     NY5
     NY6
   Purley Ward
+    !Polling District
     PU1
     PU2
     PU3
@@ -671,12 +812,14 @@ Croydon
     PU5
     PU6
   Sanderstead Ward
+    !Polling District
     SA1
     SA2
     SA3
     SA4
     SA5
   Selhurst Ward
+    !Polling District
     SE1
     SE2
     SE3
@@ -685,6 +828,7 @@ Croydon
     SE6
     SE7
   Selsdon and Ballards Ward
+    !Polling District
     SB1
     SB2
     SB3
@@ -692,6 +836,7 @@ Croydon
     SB5
     SB6
   Shirley Ward
+    !Polling District
     SH1
     SH2
     SH3
@@ -699,6 +844,7 @@ Croydon
     SH5
     SH6
   South Norwood Ward
+    !Polling District
     SN1
     SN2
     SN3
@@ -706,6 +852,7 @@ Croydon
     SN5
     SN6
   Thornton Heath Ward
+    !Polling District
     TH1
     TH2
     TH3
@@ -713,6 +860,7 @@ Croydon
     TH5
     TH6
   Upper Norwood Ward
+    !Polling District
     UN1
     UN2
     UN3
@@ -721,6 +869,7 @@ Croydon
     UN6
     UN7
   Waddon Ward
+    !Polling District
     WA1
     WA2
     WA3
@@ -728,6 +877,7 @@ Croydon
     WA5
     WA6
   West Thornton Ward
+    !Polling District
     WT1
     WT2
     WT3
@@ -735,6 +885,7 @@ Croydon
     WT5
     WT6
   Woodside Ward
+    !Polling District
     WS1
     WS2
     WS3
@@ -742,152 +893,241 @@ Croydon
     WS5
     WS6
 Ealing
+  !Council Ward
   Acton Central Ward
+    !Polling District
   Cleveland Ward
+    !Polling District
   Dormers Wells Ward
+    !Polling District
   Ealing Broadway Ward
+    !Polling District
   Ealing Common Ward
+    !Polling District
   East Acton Ward
+    !Polling District
   Elthorne Ward
+    !Polling District
   Greenford Broadway Ward
+    !Polling District
   Greenford Green Ward
+    !Polling District
   Hanger Hill Ward
+    !Polling District
   Hobbayne Ward
+    !Polling District
   Lady Margaret Ward
+    !Polling District
   North Greenford Ward
+    !Polling District
   Northfield Ward
+    !Polling District
   Northolt Mandeville Ward
+    !Polling District
   Northolt West End Ward
+    !Polling District
   Norwood Green Ward
+    !Polling District
   Perivale Ward
+    !Polling District
   South Acton Ward
+    !Polling District
   Southall Broadway Ward
+    !Polling District
   Southall Green Ward
+    !Polling District
   Southfield Ward
+    !Polling District
   Walpole Ward
+    !Polling District
 Enfield
+  !Council Ward
   Bowes Ward
+    !Polling District
     YT_{D}
   Bush Hill Park Ward
+    !Polling District
     ZK_{E}
   Chase Ward
+    !Polling District
     XA_{F}
   Cockfosters Ward
+    !Polling District
     YD_{E}
   Edmonton Green Ward
+    !Polling District
     ZS_{F}
   Enfield Highway Ward
+    !Polling District
     XH_{E}
   Enfield Lock Ward
+    !Polling District
     XC_{F}
   Grange Ward
+    !Polling District
     YJ_{F}
   Haselbury Ward
+    !Polling District
     ZO_{E}
   Highlands Ward
+    !Polling District
     XE_{E}
   Jubilee Ward
+    !Polling District
     ZM_{F}
   Lower Edmonton Ward
+    !Polling District
     ZP_{D}
   Palmers Green Ward
+    !Polling District
     YR_{E}
   Ponders End Ward
+    !Polling District
     ZL_{E}
   Southbury Ward
+    !Polling District
     XG_{F}
   Southgate Ward
+    !Polling District
     YI_{F}
   Southgate Green Ward
+    !Polling District
     YQ_{E}
   Town Ward
+    !Polling District
     XF_{F}
   Turkey Street Ward
+    !Polling District
     XB_{D}
   Upper Edmonton Ward
+    !Polling District
     ZU_{F}
   Winchmore Hill Ward
+    !Polling District
     YN_{E}
 Greenwich
+  !Council Ward
   Abbey Wood Ward
+    !Polling District
     AW_{5}
   Blackheath Westcombe Ward
+    !Polling District
     BW_{8}
   Charlton Ward
+    !Polling District
     CH_{8}
   Coldharbour and New Eltham Ward
+    !Polling District
     CN_{7}
   Eltham North Ward
+    !Polling District
     EN_{9}
   Eltham South Ward
+    !Polling District
     ES_{6}
   Eltham West Ward
+    !Polling District
     EW_{7}
   Glyndon Ward
+    !Polling District
     GL_{7}
   Greenwich West Ward
+    !Polling District
     GW_{8}
   Kidbrooke with Hornfair Ward
+    !Polling District
     KH_{6}
   Middle Park and Sutcliffe Ward
+    !Polling District
     MS_{7}
   Peninsula Ward
+    !Polling District
     PA_{7}
   Plumstead Ward
+    !Polling District
     PL_{5}
   Shooters Hill Ward
+    !Polling District
     SH_{7}
   Thamesmead Moorings Ward
+    !Polling District
     TM_{7}
   Woolwich Common Ward
+    !Polling District
     WC_{6}
   Woolwich Riverside Ward
+    !Polling District
     WR_{9}
 Hackney
+  !Council Ward
    Brownswood Ward
+     !Polling District
     HNC_{C}
   Cazenove Ward
+    !Polling District
     HNE_{D}
   Clissold Ward
+    !Polling District
     HNF_{D}
   Dalston Ward
+    !Polling District
     HNK_{B}
   De Beauvoir Ward
+    !Polling District
     HSO_{C}
   Hackney Central Ward
+    !Polling District
     HSL_{E}
   Hackney Downs Ward
+    !Polling District
     HNH_{D}
   Hackney Wick Ward
+    !Polling District
     HSR_{D}
   Haggerston Ward
+    !Polling District
     HSQ_{E}
   Homerton Ward
+    !Polling District
     HSM_{D}
   Hoxton East & Shoreditch Ward
+    !Polling District
     HSU_{C}
   Hoxton West Ward
+    !Polling District
     HST_{C}
   King’S Park Ward
+    !Polling District
     HSN_{D}
   Lea Bridge Ward
+    !Polling District
     HNI_{D}
   London Fields Ward
+    !Polling District
     HSP_{C}
   Shacklewell Ward
+    !Polling District
     HNJ_{B}
   Springfield Ward
+    !Polling District
     HNB_{E}
   Stamford Hill West Ward
+    !Polling District
     HND_{C}
   Stoke Newington Ward
+    !Polling District
     HNG_{E}
   Victoria Ward
+    !Polling District
     HSS_{D}
   Woodberry Down Ward
+    !Polling District
     HNA_{C} 
 Hammersmith and Fulhum
+  !Council Ward
   Addison Ward
+    AD_{D}
+    !Polling District
     * BURDEN Janet - Liberal Democrat
     * CAWLEY Joe - Conservative Party Candidate
     * CONNELL Adam - Labour Party Candidate
@@ -896,6 +1136,8 @@ Hammersmith and Fulhum
     * FORSYTH Charles - Conservative Party Candidate
     * KAREEM Khafi - Labour Party Candidate
   Askew Ward
+    AS_{C}
+    !Polling District
     * ALBRECHT Helene Gertrud - Green Party
     * COATES Penny - Liberal Democrat
     * HIGTON Mark - Conservative Party Candidate
@@ -908,10 +1150,12 @@ Hammersmith and Fulhum
     * VAUGHAN Rory John - Labour Party Candidate
     * ZABAVNIK Bozidar - 
   Avonmore and Brook Green Ward
+    AB_{D}
+    !Polling District
     * BARLOW Hannah Rosalind Rhona - Labour Party Candidate
     * BURDEN Jon - Liberal Democrat
     * CARLEBACH Joe - Conservative Party Candidate
-    * DANN Billy 151 Samuel Lewis Trust - Liberal Democrat
+    * DANN Billy - Liberal Democrat
     * FFISKE Caroline - Conservative Party Candidate
     * MALET Henrietta - Conservative Party Candidate
     * O'SULLIVAN Michael Paul - Labour Party Candidate
@@ -919,6 +1163,8 @@ Hammersmith and Fulhum
     * SPENCER Dominic Michael - UK Independence Party (UKIP)
     * SWALLOW Poppy - Liberal Democrat
   College Park and Old Oak Ward
+    CP_{F}
+    !Polling District
     * BOWATTE Visuddha - Liberal Democrat
     * CHUMNERY Elaine Natalie - Labour Party Candidate
     * DONOVAN Gavin - Conservative Party Candidate
@@ -926,6 +1172,8 @@ Hammersmith and Fulhum
     * HUBER Jurgen - Green Party
     * STURDY-MORTON Maria - Conservative Party Candidate
   Fulham Broadway Ward
+    FB_{C}
+    !Polling District
     * BRAUND Harry - Liberal Democrat
     * BROCKLEBANK-FOWLER Victoria Stephanie Amy - Conservative Party Candidate
     * COLEMAN Ben - Labour Party Candidate
@@ -936,6 +1184,8 @@ Hammersmith and Fulhum
     * THORLEY Matt - Conservative Party Candidate
     * WAITING Molly - Liberal Democrat
   Fulham Reach Ward
+    FR_{D}
+    !Polling District
     * CASSIDY Iain Graeme - Labour Party Candidate
     * GLOSSOP Tish - Conservative Party Candidate
     * GRAHAM Peter - Conservative Party Candidate
@@ -947,6 +1197,8 @@ Hammersmith and Fulhum
     * VINCENT Guy Wyndham - Labour Party Candidate
     * WAITING Chris - Liberal Democrat
   Hammersmith Broadway Ward
+    HB_{D}
+    !Polling District
     * AHMED Azi - Conservative Party Candidate
     * BORLAND Jackie - Conservative Party Candidate
     * BROAD David - UK Independence Party (UKIP)
@@ -959,6 +1211,8 @@ Hammersmith and Fulhum
     * ORCHARD Nigel - Liberal Democrat
     * SUTTON Barry - Liberal Democrat
   Munster Ward
+    MU_{D}
+    !Polling District
     * ADAM Michael Ferrand - Conservative Party Candidate
     * ADOTEVI Sabine - Liberal Democrat
     * ALFORD Adronie Elizabeth - Conservative Party Candidate
@@ -970,6 +1224,8 @@ Hammersmith and Fulhum
     * PARSONS Matt - Labour Party Candidate
     * WILSON Dede - Patients Not Profits
   North End Ward
+    NE_{C}
+    !Polling District
     * BARNES Gillian - Liberal Democrat
     * BROWN Daryl - Labour Party Candidate
     * CROFTS Tom - Conservative Party Candidate
@@ -981,6 +1237,8 @@ Hammersmith and Fulhum
     * NAJJAR Nabil - Conservative Party Candidate
     * TAYLOR Sarah - Liberal Democrat
   Palace Riverside Ward
+    PR_{C}
+    !Polling District
     * BASSFORD Dan - Liberal Democrat
     * BURTON Amanda Josephine - Green Party
     * DOMB Debbie - Labour Party Candidate
@@ -989,6 +1247,8 @@ Hammersmith and Fulhum
     * JOHNSON Donald McKenzie - Conservative Party Candidate
     * MORRIS Sean - Labour Party Candidate
   Parsons Green and Walham Ward
+    PG_{D}
+    !Polling District
     * AITKEN Alan - Labour Party Candidate
     * BOTTERILL Nick - Conservative Party Candidate
     * BUCHANAN-BARROW Paul - Liberal Democrat
@@ -999,6 +1259,8 @@ Hammersmith and Fulhum
     * SMITH Mary - Labour Party Candidate
     * STAINTON Frances Moya - Conservative Party Candidate
   Ravenscourt Park Ward
+    RP_{E}
+    !Polling District
     * AKAN David Recep - Green Party
     * BAILEY Simon - Liberal Democrat
     * DEWHIRST Charlie - Conservative Party Candidate
@@ -1011,6 +1273,8 @@ Hammersmith and Fulhum
     * SANDERSON Alexandra - Labour Party Candidate
     * WAINWRIGHT Jim - UK Independence Party (UKIP)
   Sands End Ward
+    SE_{D}
+    !Polling District
     * BICK Christopher - UK Independence Party (UKIP)
     * BIRD Brendan John - Labour Party Candidate
     * BUCHANAN-BARROW Eithne - Liberal Democrat
@@ -1023,6 +1287,8 @@ Hammersmith and Fulhum
     * MURPHY Dan - Labour Party Candidate
     * WESTBURY Izzy - Labour Party Candidate
   Shepherds Bush Green Ward
+    SB_{D}
+    !Polling District
     * BECHER Daniela - Conservative Party Candidate
     * CRICHTON Vanessa - UK Independence Party (UKIP)
     * JONES Andrew Malcolm - Labour Party Candidate
@@ -1033,6 +1299,8 @@ Hammersmith and Fulhum
     * THOMAS Archie Charles - Green Party
     * UMEH Mercy - Labour Party Candidate
   Town Ward
+    TW_{C}
+    !Polling District
     * BROWN Andrew Robert - Conservative Party Candidate
     * COBB Nicholas Ashley - Labour Party Candidate
     * DALY Elizabeth - Liberal Democrat
@@ -1044,6 +1312,8 @@ Hammersmith and Fulhum
     * NSUMBU Viya - Conservative Party Candidate
     * SMITH Greg - Conservative Party Candidate
   Wormholt and White City Ward
+    WW_{C}
+    !Polling District
     * AHERNE Colin - Labour Party Candidate
     * BURRIDGE David - Liberal Democrat
     * FLINT Robert Mark - Conservative Party Candidate
@@ -1053,22 +1323,42 @@ Hammersmith and Fulhum
     * SCHMID Max - Labour Party Candidate
     * TOWNSON Louisa Danielle - Conservative Party Candidate
 Haringey
+  !Council Ward
 Harrow
+  !Council Ward
 Havering
+  !Council Ward
 Hillingdon
+  !Council Ward
 Hounslow
+  !Council Ward
 Islington
+  !Council Ward
 Kensington and Chelsea
+  !Council Ward
 Kingston upon Thames
+  !Council Ward
 Lambeth
+  !Council Ward
 Lewisham
+  !Council Ward
 Merton
+  !Council Ward
 Newham
+  !Council Ward
 Redbridge
+  !Council Ward
 Richmond upon Thames
+  !Council Ward
 Southwark
+  !Council Ward
 Sutton
+  !Council Ward
 Tower Hamlets
+  !Council Ward
 Waltham Forest
+  !Council Ward
 Wandsworth
+  !Council Ward
 Westminster
+  !Council Ward
