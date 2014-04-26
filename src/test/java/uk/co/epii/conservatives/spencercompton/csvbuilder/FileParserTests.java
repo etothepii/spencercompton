@@ -2,6 +2,7 @@ package uk.co.epii.conservatives.spencercompton.csvbuilder;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -38,7 +39,39 @@ public class FileParserTests {
     assertEquals(expected, result);
   }
 
+  @Test
   public void extractCandidateTest1() {
+    String in = "* BROCKLEBANK-FOWLER Victoria Stephanie Amy - Conservative Party Candidate";
+    String[] result = FileParser.parseCandidateParts(in);
+    String[] expected = new String[] {
+            "BROCKLEBANK-FOWLER",
+            "Victoria Stephanie Amy",
+            "Conservative Party Candidate"
+    };
+    assertArrayEquals(expected, result);
+  }
 
+  @Test
+  public void extractCandidateTest2() {
+    String in = "* BROCKLEBANK FOWLER Victoria Stephanie Amy - Conservative Party Candidate";
+    String[] result = FileParser.parseCandidateParts(in);
+    String[] expected = new String[] {
+            "BROCKLEBANK FOWLER",
+            "Victoria Stephanie Amy",
+            "Conservative Party Candidate"
+    };
+    assertArrayEquals(expected, result);
+  }
+
+  @Test
+  public void extractCandidateTest3() {
+    String in = "* BROCKLEBANK-FOWLER Victoria Stephanie Amy -";
+    String[] result = FileParser.parseCandidateParts(in);
+    String[] expected = new String[] {
+            "BROCKLEBANK-FOWLER",
+            "Victoria Stephanie Amy",
+            ""
+    };
+    assertArrayEquals(expected, result);
   }
 }

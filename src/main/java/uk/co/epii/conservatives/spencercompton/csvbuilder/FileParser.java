@@ -20,6 +20,7 @@ import java.util.regex.Pattern;
 public class FileParser {
 
   private static Pattern parentDirectoryMatcher = Pattern.compile("/[^/]*/\\.\\.");
+  private static Pattern candidateMatcher = Pattern.compile("^\\* ?([^a-z]*) ([A-Z].*) - ?(.*)$");
 
   private final List<Candidate> candidates;
   private final List<PollingArea> pollingAreas;
@@ -141,7 +142,15 @@ public class FileParser {
   }
 
   static String[] parseCandidateParts(String in) {
-    return null;
+    Matcher matcher = candidateMatcher.matcher(in);
+    String[] candidateParts = new String[3];
+    if (!matcher.find()) {
+      throw new RuntimeException("Not a recognized candidate: " + in);
+    }
+    for (int i = 0; i < 3; i++) {
+      candidateParts[i] = matcher.group(i + 1);
+    }
+    return candidateParts;
   }
 
   private void returnToCommonAncestor(int indent) {
