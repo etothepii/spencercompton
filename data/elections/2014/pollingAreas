@@ -1,0 +1,32 @@
+ROOT
+  !Country
+  England
+    !Type
+    London Borough
+      !Election
+      Mayor
+        !Borough
+	./londonMayors
+      Council
+        !Borough
+        ./londonBoroughs
+    Metropolitan Borough
+      !Borough
+      ./metropolitanBoroughs
+    Unitary Authority
+      !Authority
+      ./unitaryAuthorities
+    Non-Metropolitan District
+      !District
+      ./nonMetropolitanDistricts
+    European
+      !Region
+      ./englandEuro
+  Scotland
+    !Election
+    European
+      !Division
+  Wales
+    !Election
+    European
+      !Division

@@ -3,7 +3,6 @@ package uk.co.epii.conservatives.spencercompton.csvbuilder;
 import org.springframework.beans.support.PagedListHolder;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;

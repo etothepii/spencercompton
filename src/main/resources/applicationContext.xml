@@ -11,4 +11,18 @@
     <property name="candidateExtractor" ref="hamFulCandExt" />
   </bean>
 
+  <bean id="fileParser" class="uk.co.epii.conservatives.spencercompton.csvbuilder.FileParser">
+    <property name="politicalPartyMap">
+      <map>
+        <entry key="Conservative Party Candidate" value="65"/>
+        <entry key="Green Party" value="103"/>
+        <entry key="Labour Party Candidate" value="148"/>
+        <entry key="Liberal Democrat" value="153"/>
+        <entry key="UK Independence Party (UKIP)" value="364"/>
+        <entry key="Trade Unionists and Socialists Against Cuts" value="357"/>
+      </map>
+    </property>
+  </bean>
+
+
 </beans>

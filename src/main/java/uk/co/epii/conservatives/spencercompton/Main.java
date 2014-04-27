@@ -2,6 +2,7 @@ package uk.co.epii.conservatives.spencercompton;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import uk.co.epii.conservatives.spencercompton.csvbuilder.FileParser;
 
 import java.io.*;
 
@@ -22,6 +23,28 @@ public class Main {
       fileExpander.process();
       output.close();
       input.close();
+    }
+    if (args.length > 1 && args[0].equals("CSV")) {
+      ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+      FileParser fileParser = (FileParser)context.getBean("fileParser");
+      fileParser.setWorkingFile(args[1]);
+      fileParser.process();
+      PrintWriter candidates;
+      PrintWriter pollingAreas;
+      if (args.length > 3) {
+        candidates = new PrintWriter(new FileWriter(args[2]));
+        pollingAreas = new PrintWriter(new FileWriter(args[3]));
+      }
+      else {
+        candidates = new PrintWriter(new OutputStreamWriter(System.out));
+        pollingAreas = new PrintWriter(new OutputStreamWriter(System.out));
+      }
+      for (Object candidate : fileParser.getCandidates()) {
+        candidates.println(candidate);
+      }
+      for (Object pollingArea : fileParser.getPollingAreas()) {
+        pollingAreas.println(pollingArea);
+      }
     }
   }
 
