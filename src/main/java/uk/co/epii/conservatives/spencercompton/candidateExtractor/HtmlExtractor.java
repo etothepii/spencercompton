@@ -54,7 +54,12 @@ public abstract class HtmlExtractor extends Extractor {
       }
     }
     else {
-      throw new UnsupportedOperationException("Not yet implemented: " + href);
+      try {
+        url = new URL(String.format("http://%s/%s", page.getHost(), href));
+      }
+      catch (MalformedURLException e) {
+        throw new RuntimeException(e);
+      }
     }
     return processWardLink(url);
   }

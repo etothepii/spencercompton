@@ -1,6 +1,6 @@
 package uk.co.epii.conservatives.spencercompton.csvbuilder;
 
-import org.springframework.beans.support.PagedListHolder;
+import uk.co.epii.conservatives.spencercompton.FileExpander;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -84,7 +84,7 @@ public class FileParser {
     FileReader fileReader = new FileReader(workingFile);
     BufferedReader bufferedReader = new BufferedReader(fileReader);
     String in;
-    addChild(bufferedReader.readLine());
+    addChildren(bufferedReader.readLine());
     while ((in = bufferedReader.readLine()) != null) {
       processLine(in);
     }
@@ -103,6 +103,9 @@ public class FileParser {
       }
     }
     else if (in.startsWith("*")) {
+      if (indent <= this.indent) {
+        returnToCommonAncestor(indent);
+      }
       candidates.add(parseCandidate(in));
     }
     else if (in.startsWith("!")) {
@@ -112,7 +115,7 @@ public class FileParser {
       if (indent <= this.indent) {
         returnToCommonAncestor(indent);
       }
-      addChild(in);
+      addChildren(in);
       this.indent = indent;
     }
   }
@@ -123,11 +126,16 @@ public class FileParser {
     fileParser.process();
   }
 
-  private void addChild(String in) {
+  private void addChildren(String in) {
     PollingArea parent = getActive();
-    PollingArea pollingArea = new PollingArea(in, parent == null ? 0 : parent.getId());
-    pollingAreas.add(pollingArea);
-    hierarchy.add(pollingArea);
+    PollingArea pollingArea = null;
+    for (String child : FileExpander.expand(in)) {
+      pollingArea = new PollingArea(child, parent == null ? 0 : parent.getId());
+      pollingAreas.add(pollingArea);
+    }
+    if (pollingArea != null) {
+      hierarchy.add(pollingArea);
+    }
     candidateCount = 0;
   }
 

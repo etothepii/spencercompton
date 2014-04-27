@@ -36,7 +36,7 @@ public class FileExpander {
     bufferedReader.close();
   }
 
-  static String[] expand(String line) {
+  public static String[] expand(String line) {
     ArrayList<String> lines = new ArrayList<String>();
     Matcher matcher = postalDistrictRegex.matcher(line);
     if (!matcher.find()) {

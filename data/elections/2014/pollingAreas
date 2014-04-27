@@ -9,7 +9,7 @@ ROOT
 	./londonMayors
       Council
         !Borough
-        ./londonBoroughs
+        ./londonBoroughs/index
     Metropolitan Borough
       !Borough
       ./metropolitanBoroughs

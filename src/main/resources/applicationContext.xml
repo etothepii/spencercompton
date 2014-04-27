@@ -11,6 +11,14 @@
     <property name="candidateExtractor" ref="hamFulCandExt" />
   </bean>
 
+  <bean id="towHamCandExt" class="uk.co.epii.conservatives.spencercompton.candidateExtractor.TowerHamletsExtractor" />
+
+  <bean id="towHam" class="uk.co.epii.conservatives.spencercompton.Council">
+    <property name="name" value="Tower Hamlets" />
+    <property name="url" value="http://www.towerhamlets.gov.uk/lgnl/council_and_democracy/elections__voting/elections.aspx" />
+    <property name="candidateExtractor" ref="towHamCandExt" />
+  </bean>
+
   <bean id="fileParser" class="uk.co.epii.conservatives.spencercompton.csvbuilder.FileParser">
     <property name="politicalPartyMap">
       <map>

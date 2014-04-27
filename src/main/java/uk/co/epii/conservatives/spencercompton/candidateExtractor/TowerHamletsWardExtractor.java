@@ -1,5 +1,9 @@
 package uk.co.epii.conservatives.spencercompton.candidateExtractor;
 
+import org.apache.poi.hwpf.usermodel.Table;
+import org.apache.poi.hwpf.usermodel.TableRow;
+
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,90 +12,33 @@ import java.util.List;
  * Date: 26/04/2014
  * Time: 00:08
  */
-public class TowerHamletsWardExtractor extends PDFWardExtractor {
+public class TowerHamletsWardExtractor extends DocWardExtractor {
 
-  private CandidateBuilder candidateBuilder = new HammersmithAndFulhumCandidateBuilder();
+  private static final int NAME_COLUMN = 0;
+  private static final int PARTY_COLUMN = 2;
 
   @Override
-  protected Ward extractFromText(String text) {
-    List<String> nonBlankLines = getNonBlankLines(text);
-    Ward ward = new Ward(grep("Ward", nonBlankLines).get(0));
-    ward.candidates.addAll(getCandidates(nonBlankLines));
-    return ward;
+  protected int getFooterRows() {
+    return 0;
   }
 
-  private List<Candidate> getCandidates(List<String> nonBlankLines) {
-    List<List<String>> candidateSections = getCandidateSections(nonBlankLines);
-    List<Candidate> candidates = new ArrayList<Candidate>();
-    for (List<String> candidteSection : candidateSections) {
-      candidates.add(candidateBuilder.parseCandidate(candidteSection));
-    }
-    return candidates;
+  @Override
+  protected int getHeaderRows() {
+    return 1;
   }
 
-  private List<List<String>> getCandidateSections(List<String> nonBlankLines) {
-    List<String> active = new ArrayList<String>();
-    List<List<String>> candidateSections = new ArrayList<List<String>>();
-    boolean start = false;
-    boolean add = false;
-    nextLine: for (String line : nonBlankLines) {
-      if (!start) {
-        if (line.equals("invalid")) {
-          start = true;
-        }
-        continue;
-      }
-      if (!add) {
-        if (line.isEmpty()) {
-          continue;
-        }
-        for (char c : line.toCharArray()) {
-          if (Character.isLetter(c) && !Character.isUpperCase(c)) {
-            continue nextLine;
-          }
-        }
-        add = true;
-      }
-      if (line.contains("(P)")) {
-        active.add(line);
-        candidateSections.add(active);
-        active = new ArrayList<String>();
-        add = false;
-      }
-      if (add) {
-        active.add(line);
-      }
-    }
-    return candidateSections;
+  @Override
+  protected int getDescriptionCell() {
+    return 2;
   }
 
-  private int guessLastWordIndex(List<String> words) {
-    for (int i = words.size() - 2; i >= 0; i--) {
-      if (words.get(i).matches(".*[a-z].*")) {
-        return i - 1;
-      }
-    }
-    return -1;
+  @Override
+  protected int getNameCell() {
+    return 0;
   }
 
-  private List<String> getNonBlankLines(String text) {
-    List<String> nonBlankLines = new ArrayList<String>();
-    for (String line : text.split("\n")) {
-      line = line.trim();
-      if (!line.isEmpty()) {
-        nonBlankLines.add(line);
-      }
-    }
-    return nonBlankLines;
-  }
-
-  private List<String> grep(String regex, List<String> lines) {
-    List<String> matchingLines = new ArrayList<String>();
-    for (String line : lines) {
-      if (line.contains(regex)) {
-        matchingLines.add(line);
-      }
-    }
-    return matchingLines;
+  @Override
+  protected String getTitleNameCell() {
+    return "Name of Candidate";
   }
 }
