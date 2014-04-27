@@ -1,0 +1,68 @@
+Bromley
+  !Council Ward
+  Bickley Ward
+    !Polling District
+    BK_{6}
+  Biggin Hill Ward
+    !Polling District
+    BH_{3}
+  Bromley Common & Keston Ward
+    !Polling District
+    BC_{5}
+  Bromley Town Ward
+    !Polling District
+    BT_{7}
+  Chelsfield & Pratts Bottom Ward
+    !Polling District
+    CB_{6}
+  Chislehurst Ward
+    !Polling District
+    CH_{5}
+  Clock House Ward
+    !Polling District
+    CL_{5}
+  Copers Cope Ward
+    !Polling District
+    CC_{3}
+  Cray Valley East Ward
+    !Polling District
+    CE_{6}
+  Cray Valley West Ward
+    !Polling District
+    CW_{4}
+  Crystal Palace Ward
+    !Polling District
+    CP_{4}
+  Darwin Ward
+    !Polling District
+    DA_{7}
+  Farnborough & Crofton Ward
+    !Polling District
+    FC_{6}
+  Hayes & Coney Hall Ward
+    !Polling District
+    HA_{6}
+  Kelsey and Eden Park Ward
+    !Polling District
+    KP_{4}
+  Mottingham & Chislehurst North Ward
+    !Polling District
+    MO_{4}
+  Orpington Ward
+    !Polling District
+    OR_{5}
+  Penge and Cator Ward
+    !Polling District
+    PE_{6}
+  Petts Wood & Knoll Ward
+    !Polling District
+    PW_{4}
+  Plaistow & Sundridge Ward
+    !Polling District
+    PS_{5}
+  Shortlands Ward
+    !Polling District
+    SH_{4}
+  West Wickham Ward
+    !Polling District
+    WW_{4}

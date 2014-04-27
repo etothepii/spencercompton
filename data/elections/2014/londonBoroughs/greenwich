@@ -1,0 +1,53 @@
+Greenwich
+  !Council Ward
+  Abbey Wood Ward
+    !Polling District
+    AW_{5}
+  Blackheath Westcombe Ward
+    !Polling District
+    BW_{8}
+  Charlton Ward
+    !Polling District
+    CH_{8}
+  Coldharbour and New Eltham Ward
+    !Polling District
+    CN_{7}
+  Eltham North Ward
+    !Polling District
+    EN_{9}
+  Eltham South Ward
+    !Polling District
+    ES_{6}
+  Eltham West Ward
+    !Polling District
+    EW_{7}
+  Glyndon Ward
+    !Polling District
+    GL_{7}
+  Greenwich West Ward
+    !Polling District
+    GW_{8}
+  Kidbrooke with Hornfair Ward
+    !Polling District
+    KH_{6}
+  Middle Park and Sutcliffe Ward
+    !Polling District
+    MS_{7}
+  Peninsula Ward
+    !Polling District
+    PA_{7}
+  Plumstead Ward
+    !Polling District
+    PL_{5}
+  Shooters Hill Ward
+    !Polling District
+    SH_{7}
+  Thamesmead Moorings Ward
+    !Polling District
+    TM_{7}
+  Woolwich Common Ward
+    !Polling District
+    WC_{6}
+  Woolwich Riverside Ward
+    !Polling District
+    WR_{9}

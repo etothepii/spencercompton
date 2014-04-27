@@ -1,0 +1,65 @@
+Enfield
+  !Council Ward
+  Bowes Ward
+    !Polling District
+    YT_{D}
+  Bush Hill Park Ward
+    !Polling District
+    ZK_{E}
+  Chase Ward
+    !Polling District
+    XA_{F}
+  Cockfosters Ward
+    !Polling District
+    YD_{E}
+  Edmonton Green Ward
+    !Polling District
+    ZS_{F}
+  Enfield Highway Ward
+    !Polling District
+    XH_{E}
+  Enfield Lock Ward
+    !Polling District
+    XC_{F}
+  Grange Ward
+    !Polling District
+    YJ_{F}
+  Haselbury Ward
+    !Polling District
+    ZO_{E}
+  Highlands Ward
+    !Polling District
+    XE_{E}
+  Jubilee Ward
+    !Polling District
+    ZM_{F}
+  Lower Edmonton Ward
+    !Polling District
+    ZP_{D}
+  Palmers Green Ward
+    !Polling District
+    YR_{E}
+  Ponders End Ward
+    !Polling District
+    ZL_{E}
+  Southbury Ward
+    !Polling District
+    XG_{F}
+  Southgate Ward
+    !Polling District
+    YI_{F}
+  Southgate Green Ward
+    !Polling District
+    YQ_{E}
+  Town Ward
+    !Polling District
+    XF_{F}
+  Turkey Street Ward
+    !Polling District
+    XB_{D}
+  Upper Edmonton Ward
+    !Polling District
+    ZU_{F}
+  Winchmore Hill Ward
+    !Polling District
+    YN_{E}

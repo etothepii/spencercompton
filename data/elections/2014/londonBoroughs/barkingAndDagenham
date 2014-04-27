@@ -1,0 +1,53 @@
+Barking and Dagenham
+  !Council Ward
+  Abbey Ward
+    !Polling District
+    A_{D}
+  Alibon Ward
+    !Polling District
+    K_{D} 
+  Becontree Ward
+    !Polling District
+    V_{D}
+  Chadwell Heath Ward
+    !Polling District
+    Q_{D}
+  Eastbrook Ward
+    !Polling District
+    M_{C}
+  Eastbury Ward
+    !Polling District
+    C_{D}
+  Gascoigne Ward
+    !Polling District
+    D_{D}
+  Goresbrook Ward
+    !Polling District
+    E_{D}
+  Heath Ward
+    !Polling District
+    P_{D}
+  Longbridge Ward
+    !Polling District
+    F_{D}
+  Mayesbrook Ward
+    !Polling District
+    H_{D}
+  Parsloes Ward
+    !Polling District
+    N_{D}
+  River Ward
+    !Polling District
+    R_{D}
+  Thames Ward
+    !Polling District
+    J_{D}
+  Valence Ward
+    !Polling District
+    T_{D}
+  Village Ward
+    !Polling District
+    U_{D}
+  Whalebone Ward
+    !Polling District
+    L_{D}

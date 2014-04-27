@@ -1,0 +1,56 @@
+Camden
+  !Council Ward
+  Belsize Ward
+    !Polling District
+    H_{C}
+  Bloomsbury Ward
+    !Polling District
+    Q_{D}
+  Camden Town with Primrose Hill Ward
+    !Polling District
+    M_{D}
+  Cantelowes Ward
+    !Polling District
+    K_{C}
+  Fortune Green Ward
+    !Polling District
+    D_{C}
+  Frognal and Fitzjohns Ward
+    !Polling District
+    C_{C}
+  Gospel Oak Ward
+    !Polling District
+    I_{C}
+  Hampstead Town Ward
+    !Polling District
+    A_{C}
+  Haverstock Ward
+    !Polling District
+    L_{D}
+  Highgate Ward
+    !Polling District
+    B_{C}
+  Holborn and Covent Garden Ward
+    !Polling District
+    R_{C}
+  Kentish Town Ward
+    !Polling District
+    J_{C}
+  Kilburn Ward
+    !Polling District
+    F_{D}
+  Kings Cross Ward
+    !Polling District
+    P_{C}
+  Regents Park Ward
+    !Polling District
+    N_{C}
+  St Pancras and Somers Town Ward
+    !Polling District
+    O_{D}
+  Swiss Cottage Ward
+    !Polling District
+    G_{C}
+  West Hampstead Ward
+    !Polling District
+    E_{D}
