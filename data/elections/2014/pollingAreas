@@ -6,22 +6,22 @@ ROOT
       !Election
       Mayor
         !Borough
-	./londonMayors
+	./londonMayors/index
       Council
         !Borough
         ./londonBoroughs/index
     Metropolitan Borough
       !Borough
-      ./metropolitanBoroughs
+      ./metropolitanBoroughs/index
     Unitary Authority
       !Authority
-      ./unitaryAuthorities
+      ./unitaryAuthorities/index
     Non-Metropolitan District
       !District
-      ./nonMetropolitanDistricts
+      ./nonMetropolitanDistricts/index
     European
       !Region
-      ./englandEuro
+      ./englandEuro/index
   Scotland
     !Election
     European
