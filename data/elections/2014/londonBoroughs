@@ -944,189 +944,440 @@ Enfield
   !Council Ward
   Bowes Ward
     !Polling District
-    YT_{D}
+    YTA
+    YTB
+    YTC
+    YTD
   Bush Hill Park Ward
     !Polling District
-    ZK_{E}
+    ZKA
+    ZKB
+    ZKC
+    ZKD
+    ZKE
   Chase Ward
     !Polling District
-    XA_{F}
+    XAA
+    XAB
+    XAC
+    XAD
+    XAE
+    XAF
   Cockfosters Ward
     !Polling District
-    YD_{E}
+    YDA
+    YDB
+    YDC
+    YDD
+    YDE
   Edmonton Green Ward
     !Polling District
-    ZS_{F}
+    ZSA
+    ZSB
+    ZSC
+    ZSD
+    ZSE
+    ZSF
   Enfield Highway Ward
     !Polling District
-    XH_{E}
+    XHA
+    XHB
+    XHC
+    XHD
+    XHE
   Enfield Lock Ward
     !Polling District
-    XC_{F}
+    XCA
+    XCB
+    XCC
+    XCD
+    XCE
+    XCF
   Grange Ward
     !Polling District
-    YJ_{F}
+    YJA
+    YJB
+    YJC
+    YJD
+    YJE
+    YJF
   Haselbury Ward
     !Polling District
-    ZO_{E}
+    ZOA
+    ZOB
+    ZOC
+    ZOD
+    ZOE
   Highlands Ward
     !Polling District
-    XE_{E}
+    XEA
+    XEB
+    XEC
+    XED
+    XEE
   Jubilee Ward
     !Polling District
-    ZM_{F}
+    ZMA
+    ZMB
+    ZMC
+    ZMD
+    ZME
+    ZMF
   Lower Edmonton Ward
     !Polling District
-    ZP_{D}
+    ZPA
+    ZPB
+    ZPC
+    ZPD
   Palmers Green Ward
     !Polling District
-    YR_{E}
+    YRA
+    YRB
+    YRC
+    YRD
+    YRE
   Ponders End Ward
     !Polling District
-    ZL_{E}
+    ZLA
+    ZLB
+    ZLC
+    ZLD
+    ZLE
   Southbury Ward
     !Polling District
-    XG_{F}
+    XGA
+    XGB
+    XGC
+    XGD
+    XGE
+    XGF
   Southgate Ward
     !Polling District
-    YI_{F}
+    YIA
+    YIB
+    YIC
+    YID
+    YIE
+    YIF
   Southgate Green Ward
     !Polling District
-    YQ_{E}
+    YQA
+    YQB
+    YQC
+    YQD
+    YQE
   Town Ward
     !Polling District
-    XF_{F}
+    XFA
+    XFB
+    XFC
+    XFD
+    XFE
+    XFF
   Turkey Street Ward
     !Polling District
-    XB_{D}
+    XBA
+    XBB
+    XBC
+    XBD
   Upper Edmonton Ward
     !Polling District
-    ZU_{F}
+    ZUA
+    ZUB
+    ZUC
+    ZUD
+    ZUE
+    ZUF
   Winchmore Hill Ward
     !Polling District
-    YN_{E}
+    YNA
+    YNB
+    YNC
+    YND
+    YNE
 Greenwich
   !Council Ward
   Abbey Wood Ward
     !Polling District
-    AW_{5}
+    AW1
+    AW2
+    AW3
+    AW4
+    AW5
   Blackheath Westcombe Ward
     !Polling District
-    BW_{8}
+    BW1
+    BW2
+    BW3
+    BW4
+    BW5
+    BW6
+    BW7
+    BW8
   Charlton Ward
     !Polling District
-    CH_{8}
+    CH1
+    CH2
+    CH3
+    CH4
+    CH5
+    CH6
+    CH7
+    CH8
   Coldharbour and New Eltham Ward
     !Polling District
-    CN_{7}
+    CN1
+    CN2
+    CN3
+    CN4
+    CN5
+    CN6
+    CN7
   Eltham North Ward
     !Polling District
-    EN_{9}
+    EN1
+    EN2
+    EN3
+    EN4
+    EN5
+    EN6
+    EN7
+    EN8
+    EN9
   Eltham South Ward
     !Polling District
-    ES_{6}
+    ES1
+    ES2
+    ES3
+    ES4
+    ES5
+    ES6
   Eltham West Ward
     !Polling District
-    EW_{7}
+    EW1
+    EW2
+    EW3
+    EW4
+    EW5
+    EW6
+    EW7
   Glyndon Ward
     !Polling District
-    GL_{7}
+    GL1
+    GL2
+    GL3
+    GL4
+    GL5
+    GL6
+    GL7
   Greenwich West Ward
     !Polling District
-    GW_{8}
+    GW1
+    GW2
+    GW3
+    GW4
+    GW5
+    GW6
+    GW7
+    GW8
   Kidbrooke with Hornfair Ward
     !Polling District
-    KH_{6}
+    KH1
+    KH2
+    KH3
+    KH4
+    KH5
+    KH6
   Middle Park and Sutcliffe Ward
     !Polling District
-    MS_{7}
+    MS1
+    MS2
+    MS3
+    MS4
+    MS5
+    MS6
+    MS7
   Peninsula Ward
     !Polling District
-    PA_{7}
+    PA1
+    PA2
+    PA3
+    PA4
+    PA5
+    PA6
+    PA7
   Plumstead Ward
     !Polling District
-    PL_{5}
+    PL1
+    PL2
+    PL3
+    PL4
+    PL5
   Shooters Hill Ward
     !Polling District
-    SH_{7}
+    SH1
+    SH2
+    SH3
+    SH4
+    SH5
+    SH6
+    SH7
   Thamesmead Moorings Ward
     !Polling District
-    TM_{7}
+    TM1
+    TM2
+    TM3
+    TM4
+    TM5
+    TM6
+    TM7
   Woolwich Common Ward
     !Polling District
-    WC_{6}
+    WC1
+    WC2
+    WC3
+    WC4
+    WC5
+    WC6
   Woolwich Riverside Ward
     !Polling District
-    WR_{9}
+    WR1
+    WR2
+    WR3
+    WR4
+    WR5
+    WR6
+    WR7
+    WR8
+    WR9
 Hackney
   !Council Ward
    Brownswood Ward
      !Polling District
-    HNC_{C}
+    HNCA
+    HNCB
+    HNCC
   Cazenove Ward
     !Polling District
-    HNE_{D}
+    HNEA
+    HNEB
+    HNEC
+    HNED
   Clissold Ward
     !Polling District
-    HNF_{D}
+    HNFA
+    HNFB
+    HNFC
+    HNFD
   Dalston Ward
     !Polling District
-    HNK_{B}
+    HNKA
+    HNKB
   De Beauvoir Ward
     !Polling District
-    HSO_{C}
+    HSOA
+    HSOB
+    HSOC
   Hackney Central Ward
     !Polling District
-    HSL_{E}
+    HSLA
+    HSLB
+    HSLC
+    HSLD
+    HSLE
   Hackney Downs Ward
     !Polling District
-    HNH_{D}
+    HNHA
+    HNHB
+    HNHC
+    HNHD
   Hackney Wick Ward
     !Polling District
-    HSR_{D}
+    HSRA
+    HSRB
+    HSRC
+    HSRD
   Haggerston Ward
     !Polling District
-    HSQ_{E}
+    HSQA
+    HSQB
+    HSQC
+    HSQD
+    HSQE
   Homerton Ward
     !Polling District
-    HSM_{D}
+    HSMA
+    HSMB
+    HSMC
+    HSMD
   Hoxton East & Shoreditch Ward
     !Polling District
-    HSU_{C}
+    HSUA
+    HSUB
+    HSUC
   Hoxton West Ward
     !Polling District
-    HST_{C}
+    HSTA
+    HSTB
+    HSTC
   King’S Park Ward
     !Polling District
-    HSN_{D}
+    HSNA
+    HSNB
+    HSNC
+    HSND
   Lea Bridge Ward
     !Polling District
-    HNI_{D}
+    HNIA
+    HNIB
+    HNIC
+    HNID
   London Fields Ward
     !Polling District
-    HSP_{C}
+    HSPA
+    HSPB
+    HSPC
   Shacklewell Ward
     !Polling District
-    HNJ_{B}
+    HNJA
+    HNJB
   Springfield Ward
     !Polling District
-    HNB_{E}
+    HNBA
+    HNBB
+    HNBC
+    HNBD
+    HNBE
   Stamford Hill West Ward
     !Polling District
-    HND_{C}
+    HNDA
+    HNDB
+    HNDC
   Stoke Newington Ward
     !Polling District
-    HNG_{E}
+    HNGA
+    HNGB
+    HNGC
+    HNGD
+    HNGE
   Victoria Ward
     !Polling District
-    HSS_{D}
+    HSSA
+    HSSB
+    HSSC
+    HSSD
   Woodberry Down Ward
     !Polling District
-    HNA_{C} 
+    HNAA 
+    HNAB 
+    HNAC 
 Hammersmith and Fulhum
   !Council Ward
   Addison Ward
-    AD_{D}
+    ADA
+    ADB
+    ADC
+    ADD
     !Polling District
     * BURDEN Janet - Liberal Democrat
     * CAWLEY Joe - Conservative Party Candidate
@@ -1136,7 +1387,9 @@ Hammersmith and Fulhum
     * FORSYTH Charles - Conservative Party Candidate
     * KAREEM Khafi - Labour Party Candidate
   Askew Ward
-    AS_{C}
+    ASA
+    ASB
+    ASC
     !Polling District
     * ALBRECHT Helene Gertrud - Green Party
     * COATES Penny - Liberal Democrat
@@ -1150,7 +1403,10 @@ Hammersmith and Fulhum
     * VAUGHAN Rory John - Labour Party Candidate
     * ZABAVNIK Bozidar - 
   Avonmore and Brook Green Ward
-    AB_{D}
+    ABA
+    ABB
+    ABC
+    ABD
     !Polling District
     * BARLOW Hannah Rosalind Rhona - Labour Party Candidate
     * BURDEN Jon - Liberal Democrat
@@ -1163,7 +1419,12 @@ Hammersmith and Fulhum
     * SPENCER Dominic Michael - UK Independence Party (UKIP)
     * SWALLOW Poppy - Liberal Democrat
   College Park and Old Oak Ward
-    CP_{F}
+    CPA
+    CPB
+    CPC
+    CPD
+    CPE
+    CPF
     !Polling District
     * BOWATTE Visuddha - Liberal Democrat
     * CHUMNERY Elaine Natalie - Labour Party Candidate
@@ -1172,7 +1433,9 @@ Hammersmith and Fulhum
     * HUBER Jurgen - Green Party
     * STURDY-MORTON Maria - Conservative Party Candidate
   Fulham Broadway Ward
-    FB_{C}
+    FBA
+    FBB
+    FBC
     !Polling District
     * BRAUND Harry - Liberal Democrat
     * BROCKLEBANK-FOWLER Victoria Stephanie Amy - Conservative Party Candidate
@@ -1184,7 +1447,10 @@ Hammersmith and Fulhum
     * THORLEY Matt - Conservative Party Candidate
     * WAITING Molly - Liberal Democrat
   Fulham Reach Ward
-    FR_{D}
+    FRA
+    FRB
+    FRC
+    FRD
     !Polling District
     * CASSIDY Iain Graeme - Labour Party Candidate
     * GLOSSOP Tish - Conservative Party Candidate
@@ -1197,7 +1463,10 @@ Hammersmith and Fulhum
     * VINCENT Guy Wyndham - Labour Party Candidate
     * WAITING Chris - Liberal Democrat
   Hammersmith Broadway Ward
-    HB_{D}
+    HBA
+    HBB
+    HBC
+    HBD
     !Polling District
     * AHMED Azi - Conservative Party Candidate
     * BORLAND Jackie - Conservative Party Candidate
@@ -1211,7 +1480,10 @@ Hammersmith and Fulhum
     * ORCHARD Nigel - Liberal Democrat
     * SUTTON Barry - Liberal Democrat
   Munster Ward
-    MU_{D}
+    MUA
+    MUB
+    MUC
+    MUD
     !Polling District
     * ADAM Michael Ferrand - Conservative Party Candidate
     * ADOTEVI Sabine - Liberal Democrat
@@ -1224,7 +1496,9 @@ Hammersmith and Fulhum
     * PARSONS Matt - Labour Party Candidate
     * WILSON Dede - Patients Not Profits
   North End Ward
-    NE_{C}
+    NEA
+    NEB
+    NEC
     !Polling District
     * BARNES Gillian - Liberal Democrat
     * BROWN Daryl - Labour Party Candidate
@@ -1237,7 +1511,9 @@ Hammersmith and Fulhum
     * NAJJAR Nabil - Conservative Party Candidate
     * TAYLOR Sarah - Liberal Democrat
   Palace Riverside Ward
-    PR_{C}
+    PRA
+    PRB
+    PRC
     !Polling District
     * BASSFORD Dan - Liberal Democrat
     * BURTON Amanda Josephine - Green Party
@@ -1247,7 +1523,10 @@ Hammersmith and Fulhum
     * JOHNSON Donald McKenzie - Conservative Party Candidate
     * MORRIS Sean - Labour Party Candidate
   Parsons Green and Walham Ward
-    PG_{D}
+    PGA
+    PGB
+    PGC
+    PGD
     !Polling District
     * AITKEN Alan - Labour Party Candidate
     * BOTTERILL Nick - Conservative Party Candidate
@@ -1259,7 +1538,11 @@ Hammersmith and Fulhum
     * SMITH Mary - Labour Party Candidate
     * STAINTON Frances Moya - Conservative Party Candidate
   Ravenscourt Park Ward
-    RP_{E}
+    RPA
+    RPB
+    RPC
+    RPD
+    RPE
     !Polling District
     * AKAN David Recep - Green Party
     * BAILEY Simon - Liberal Democrat
@@ -1273,7 +1556,10 @@ Hammersmith and Fulhum
     * SANDERSON Alexandra - Labour Party Candidate
     * WAINWRIGHT Jim - UK Independence Party (UKIP)
   Sands End Ward
-    SE_{D}
+    SEA
+    SEB
+    SEC
+    SED
     !Polling District
     * BICK Christopher - UK Independence Party (UKIP)
     * BIRD Brendan John - Labour Party Candidate
@@ -1287,7 +1573,10 @@ Hammersmith and Fulhum
     * MURPHY Dan - Labour Party Candidate
     * WESTBURY Izzy - Labour Party Candidate
   Shepherds Bush Green Ward
-    SB_{D}
+    SBA
+    SBB
+    SBC
+    SBD
     !Polling District
     * BECHER Daniela - Conservative Party Candidate
     * CRICHTON Vanessa - UK Independence Party (UKIP)
@@ -1299,7 +1588,9 @@ Hammersmith and Fulhum
     * THOMAS Archie Charles - Green Party
     * UMEH Mercy - Labour Party Candidate
   Town Ward
-    TW_{C}
+    TWA
+    TWB
+    TWC
     !Polling District
     * BROWN Andrew Robert - Conservative Party Candidate
     * COBB Nicholas Ashley - Labour Party Candidate
@@ -1312,7 +1603,9 @@ Hammersmith and Fulhum
     * NSUMBU Viya - Conservative Party Candidate
     * SMITH Greg - Conservative Party Candidate
   Wormholt and White City Ward
-    WW_{C}
+    WWA
+    WWB
+    WWC
     !Polling District
     * AHERNE Colin - Labour Party Candidate
     * BURRIDGE David - Liberal Democrat

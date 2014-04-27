@@ -84,6 +84,7 @@ public class FileParser {
     FileReader fileReader = new FileReader(workingFile);
     BufferedReader bufferedReader = new BufferedReader(fileReader);
     String in;
+    addChild(bufferedReader.readLine());
     while ((in = bufferedReader.readLine()) != null) {
       processLine(in);
     }
@@ -101,17 +102,18 @@ public class FileParser {
         throw new RuntimeException("File not found: " + in);
       }
     }
-    if (in.startsWith("*")) {
+    else if (in.startsWith("*")) {
       candidates.add(parseCandidate(in));
     }
     else if (in.startsWith("!")) {
-      getActive().setChildType(in);
+      getActive().setChildType(in.substring(1).trim());
     }
-    else {
+    else if (!in.startsWith("#")) {
       if (indent <= this.indent) {
         returnToCommonAncestor(indent);
       }
       addChild(in);
+      this.indent = indent;
     }
   }
 

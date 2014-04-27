@@ -36,15 +36,19 @@ public class Main {
         pollingAreas = new PrintWriter(new FileWriter(args[3]));
       }
       else {
-        candidates = new PrintWriter(new OutputStreamWriter(System.out));
         pollingAreas = new PrintWriter(new OutputStreamWriter(System.out));
+        candidates = new PrintWriter(new OutputStreamWriter(System.out));
       }
       for (Object candidate : fileParser.getCandidates()) {
         candidates.println(candidate);
       }
+      candidates.flush();
+      candidates.close();
       for (Object pollingArea : fileParser.getPollingAreas()) {
         pollingAreas.println(pollingArea);
       }
+      pollingAreas.flush();
+      pollingAreas.close();
     }
   }
 
