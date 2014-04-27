@@ -166,6 +166,7 @@ public class FileParser {
     int generations = (this.indent - indent) / 2 + 1;
     for (int i = 0; i < generations; i++) {
       hierarchy.remove(hierarchy.size() - 1);
+      this.indent -= 2;
     }
   }
 

@@ -29,21 +29,15 @@ public class Main {
       FileParser fileParser = (FileParser)context.getBean("fileParser");
       fileParser.setWorkingFile(args[1]);
       fileParser.process();
-      PrintWriter candidates;
-      PrintWriter pollingAreas;
-      if (args.length > 3) {
-        candidates = new PrintWriter(new FileWriter(args[2]));
-        pollingAreas = new PrintWriter(new FileWriter(args[3]));
-      }
-      else {
-        pollingAreas = new PrintWriter(new OutputStreamWriter(System.out));
-        candidates = new PrintWriter(new OutputStreamWriter(System.out));
-      }
+      PrintWriter candidates =
+              new PrintWriter(args.length > 3 ? new FileWriter(args[2]) : new OutputStreamWriter(System.out)) ;
       for (Object candidate : fileParser.getCandidates()) {
         candidates.println(candidate);
       }
       candidates.flush();
       candidates.close();
+      PrintWriter pollingAreas =
+              new PrintWriter(args.length > 3 ? new FileWriter(args[3]) : new OutputStreamWriter(System.out)) ;
       for (Object pollingArea : fileParser.getPollingAreas()) {
         pollingAreas.println(pollingArea);
       }
