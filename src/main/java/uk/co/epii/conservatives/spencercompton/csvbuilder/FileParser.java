@@ -29,6 +29,7 @@ public class FileParser {
   private int indent = 0;
   private String workingFile;
   private Map<String, Integer> politicalPartyMap;
+  private boolean first = true;
 
   public FileParser(List<Candidate> candidates, List<PollingArea> pollingAreas, List<PollingArea> hierarchy) {
     this.candidates = candidates;
@@ -84,7 +85,6 @@ public class FileParser {
     FileReader fileReader = new FileReader(workingFile);
     BufferedReader bufferedReader = new BufferedReader(fileReader);
     String in;
-    addChildren(bufferedReader.readLine());
     while ((in = bufferedReader.readLine()) != null) {
       processLine(in);
     }
@@ -112,8 +112,13 @@ public class FileParser {
       getActive().setChildType(in.substring(1).trim());
     }
     else if (!in.startsWith("#")) {
-      if (indent <= this.indent) {
-        returnToCommonAncestor(indent);
+      if (!first) {
+        if (indent <= this.indent) {
+          returnToCommonAncestor(indent);
+        }
+      }
+      else {
+        first = false;
       }
       addChildren(in);
       this.indent = indent;
@@ -163,6 +168,9 @@ public class FileParser {
   }
 
   private void returnToCommonAncestor(int indent) {
+    if (hierarchy.isEmpty()) {
+      return;
+    }
     int generations = (this.indent - indent) / 2 + 1;
     for (int i = 0; i < generations; i++) {
       hierarchy.remove(hierarchy.size() - 1);
@@ -175,12 +183,19 @@ public class FileParser {
   }
 
   private int getIndent(String in) {
+    int indent = 0;
     for (int i = 0; i < in.length(); i++) {
-      if (in.charAt(i) != ' ') {
-        return i;
+      if (in.charAt(i) == ' ') {
+        indent++;
+      }
+      else if (in.charAt(i) == '\t') {
+        indent += 8;
+      }
+      else {
+        break;
       }
     }
-    return in.length();
+    return indent;
   }
 
   static String getFile(String workingFile, String relativePath) {
